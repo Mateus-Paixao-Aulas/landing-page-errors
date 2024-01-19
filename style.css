@@ -1,23 +1,121 @@
-.content {
-    padding-top: 240px;
-    padding-bottom: 440px;
-    margin-bottom: 100px;
+body{
+    font-family: 'Roboto';
+    font-style: normal;
     background: url('assets/background.png');
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position-x: right;
     background-origin: border-box;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    padding: 2rem;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: #ff0404;
+  }
+
+.lista_top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    padding-bottom: 440px;
+    margin-bottom: 100px;
+}
+
+.titulo_principal{
+    color: #091133;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px; /* 132% */
+    letter-spacing: 1px;
+}
+
 .content div {
-    background-color: #cecece;
+    color: #D44D51;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
     width: 540px;
+    padding-left: 6rem;
 }
 
 .content div span {
     color: #D44D51;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px; 
+}
+
+ul {
+    display: inline;
+    color: #CD313E;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    list-style: none
+}
+
+button {
+    width: 189.131px;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: #CD313E;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid;
+}
+
+.btn_cima{
+    box-shadow: #000000;
+}
+
+.btn-meio{
+    background-color: #ffffff00;
+    color: #000000;
+    border: 1px solid;
+}
+
+
+a{
+    margin-right: 20px;
+}
+
+footer{
+    background-color: #F78282;
+}
+.rede-social {
+    padding-top: 30px;
+    width: 150%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-inferior{
+    position: absolute;
+    left: 80%;
+}
+
+.div_fim{
+    padding: 30px;
+    display: flex;
+    align-items: center;
 }
