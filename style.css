@@ -1,23 +1,131 @@
-.content {
-    padding-top: 240px;
-    padding-bottom: 440px;
-    margin-bottom: 100px;
-    background: url('assets/background.png');
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
+body, html {
+    font-family: 'Roboto';
+    font-style: normal;
+    background: url('assets/background.png') no-repeat right top;
     background-origin: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 2rem;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ff0404;
+}
+
+.lista_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    margin-bottom: 100px;
+    padding-bottom: 440px;
+    padding-top: 0;
+}
+
+.titulo_principal {
+    color: #091133;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #ffffff;
 }
 
 .content div {
-    background-color: #cecece;
+    color: #D44D51;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
     width: 540px;
+    margin-left: 12rem;
+    margin-top: 2rem;
 }
 
 .content div span {
     color: #D44D51;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
+}
+
+ul {
+    color: #CD313E;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    list-style: none;
+    display: inline;
+}
+
+button, .btn-inferior {
+    width: 189.131px;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: #CD313E;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid;
+}
+
+.btn_cima {
+    height: 25px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-meio {
+    background-color: #ffffff00;
+    color: #000000;
+    border: 1px solid;
+}
+
+a {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #F78282;
+
+}
+
+.rede-social {
+    padding-top: 30px;
+    width: 150%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-inferior {
+    position: absolute;
+    left: 80%;
+    border: 1px solid transparent;
+}
+
+.div_fim {
+    padding: 30px;
+    display: flex;
+    align-items: center;
 }
